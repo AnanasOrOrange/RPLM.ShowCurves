@@ -140,4 +140,9 @@
     <value>Отображение кривых</value>
     <comment>ID инструмента</comment>
   </data>
+  </data>
+    <data name="RPLM.CAD.UI.ShowCurvesCommand.ShowCurves" xml:space="preserve">
+    <value>Отображение кривых</value>
+    <comment>ID инструмента</comment>
+  </data>
 </root>

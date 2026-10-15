@@ -130,23 +130,11 @@ namespace RPLM::CAD::UI
             case CurveParser::ErrorType::IncorrectFormatBlockControlPoints:
                 errorMessage = "Некорректный формат блока Control Points (Строка " + std::to_string(result.lineNumber) + ").";
                 break;
-            case CurveParser::ErrorType::IncorrectNumberExpectControlPoints:
-                errorMessage = "Некорректное количество ожидаемых контрольных точек (Строка " + std::to_string(result.lineNumber) + ").";
-                break;
-            case CurveParser::ErrorType::ErrorCoordinateControlPoint:
-                errorMessage = "Ошибка чтения координат контрольной точки (Строка " + std::to_string(result.lineNumber) + ").";
-                break;
-            case CurveParser::ErrorType::NumberActualControlPointsNotMatchExpect:
-                errorMessage = "Количество контрольных точек не совпадает с ожидаемым (Строка " + std::to_string(result.lineNumber) + ").";
-                break;
             case CurveParser::ErrorType::IncorrectFormatBlockWeights:
                 errorMessage = "Некорректный формат блока Weights (Строка " + std::to_string(result.lineNumber) + ").";
                 break;
             case CurveParser::ErrorType::IncorrectNumberExpectWeights:
                 errorMessage = "Некорректное количество ожидаемых весовых коэффициентов (Строка " + std::to_string(result.lineNumber) + ").";
-                break;
-            case CurveParser::ErrorType::ErrorWeight:
-                errorMessage = "Ошибка чтения весового коэффициента (Строка " + std::to_string(result.lineNumber) + ").";
                 break;
             case CurveParser::ErrorType::NumberActualWeightsNotMatchExpect:
                 errorMessage = "Количество весовых коэффициентов не совпадает с ожидаемым (Строка " + std::to_string(result.lineNumber) + ").";
@@ -156,9 +144,6 @@ namespace RPLM::CAD::UI
                 break;
             case CurveParser::ErrorType::IncorrectNumberExpectKnots:
                 errorMessage = "Некорректное количество ожидаемых узловых коэффициентов (Строка " + std::to_string(result.lineNumber) + ").";
-                break;
-            case CurveParser::ErrorType::ErrorKnot:
-                errorMessage = "Ошибка чтения узлового коэффициента (Строка " + std::to_string(result.lineNumber) + ").";
                 break;
             case CurveParser::ErrorType::NumberActualKnotsNotMatchExpect:
                 errorMessage = "Количество узловых коэффициентов не совпадает с ожидаемым (Строка " + std::to_string(result.lineNumber) + ").";

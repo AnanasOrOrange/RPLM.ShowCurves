@@ -21,26 +21,16 @@ namespace RPLM::CAD::UI
             IncorrectFormatBlockDegree,
             // Неверный формат блока ControlPoints
             IncorrectFormatBlockControlPoints,
-            // Некорректное количество ожидаемых контрольных точек
-            IncorrectNumberExpectControlPoints,
-            // Ошибка чтения координаты контрольной точки
-            ErrorCoordinateControlPoint,
-            // Количество фактических контрольных точек не совпадает с количеством ожидаемых
-            NumberActualControlPointsNotMatchExpect,
             // Неверный формат блока с весами 
             IncorrectFormatBlockWeights,
             // Некорректное количество ожидаемых весовых коэффициентов
             IncorrectNumberExpectWeights,
-            // Ошибка чтения весового коэффициента
-            ErrorWeight,
             // Количество фактических весовых коэффициентов не совпадает с количеством ожидаемых
             NumberActualWeightsNotMatchExpect,
             // Неверный формат блока Knots 
             IncorrectFormatBlockKnots,
             // Некорректное количество ожидаемых узловых коэффициентов
             IncorrectNumberExpectKnots,
-            // Ошибка чтения узлового коэффициента
-            ErrorKnot,
             // Количество фактических узловых коэффициентов не совпадает с количеством ожидаемых
             NumberActualKnotsNotMatchExpect,
         };
